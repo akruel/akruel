@@ -1,16 +1,28 @@
-## Hi there 👋
+# 👋 Hi, I'm Anderson Kruel!
+### 🚀 Senior Backend/Fullstack Developer | Java | Node.js | Angular | AWS
 
-<!--
-**akruel/akruel** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## About Me
 
-Here are some ideas to get you started:
+💻 Passionate about software development, with a focus on **backend architectures, microservices, and cloud computing**.  
+🚀 Experienced in **Java (Spring Boot), Node.js (NestJS, Express), and frontend development with Angular**.  
+☁️ Skilled in **AWS services** like Lambda, SQS, DynamoDB, and API Gateway.  
+📚 Constantly learning and improving my skills in **scalability, distributed systems, and DevOps**.  
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🔧 Tech Stack
+
+- **Languages:** Java, TypeScript, JavaScript  
+- **Backend:** Spring Boot, Node.js (NestJS, Express)  
+- **Frontend:** Angular  
+- **Databases:** PostgreSQL, Oracle, DynamoDB, MongoDB  
+- **Cloud & DevOps:** AWS (S3, SQS, Lambda, API Gateway), Docker, Kubernetes  
+- **Testing:** Jest, JUnit  
+
+## 📊 GitHub Stats
+
+![Anderson's GitHub Stats](https://github-readme-stats.vercel.app/api?username=akruel&show_icons=true&theme=radical)
+
+## 📫 Connect with Me  
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/anderson-kruel/)  
+[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/akruel)  
+[![Email](https://img.shields.io/badge/Email-red?logo=gmail)](mailto:anderson.kruel@gmail.com)  
