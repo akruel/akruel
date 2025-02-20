@@ -23,6 +23,5 @@
 
 ## 📫 Connect with Me  
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/anderson-kruel/)  
-[![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/akruel)  
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/anderson-kruel/?locale=en_US)  
 [![Email](https://img.shields.io/badge/Email-red?logo=gmail)](mailto:anderson.kruel@gmail.com)  
