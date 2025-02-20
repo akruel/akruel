@@ -1,5 +1,5 @@
 # 👋 Hi, I'm Anderson Kruel!
-### 🚀 Senior Backend/Fullstack Developer | Java | Node.js | Angular | AWS
+### 🚀 Senior Backend/Fullstack Developer
 
 ## About Me
 
