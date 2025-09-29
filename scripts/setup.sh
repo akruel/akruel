@@ -87,6 +87,25 @@ fi
 
 echo "✅ Colima + Docker prontos! Teste com: docker ps"
 
+# --- Aplicações ---
+echo "📦 Verificando e instalando aplicações de desenvolvimento..."
+
+# DBeaver
+if ! command -v dbeaver &> /dev/null && [ ! -d "/Applications/DBeaver.app" ]; then
+  echo "📦 Instalando DBeaver..."
+  brew install --cask dbeaver-community
+else
+  echo "✅ DBeaver já instalado!"
+fi
+
+# Postman
+if ! command -v postman &> /dev/null && [ ! -d "/Applications/Postman.app" ]; then
+  echo "📦 Instalando Postman..."
+  brew install --cask postman
+else
+  echo "✅ Postman já instalado!"
+fi
+
 # --- Zsh + Plugins + Tema ---
 echo "📦 Configurando Oh My Zsh..."
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
