@@ -64,6 +64,22 @@ else
   echo "✅ SDKMAN já instalado!"
 fi
 
+# PYENV
+if ! brew list --formula | grep -q "^pyenv\$"; then
+  echo "📦 Instalando pyenv..."
+  brew install pyenv
+fi
+if [ ! -d "$HOME/.pyenv" ]; then
+  mkdir -p ~/.pyenv
+  if ! grep -q "PYENV_ROOT" ~/.zshrc; then
+    echo 'export PYENV_ROOT="$HOME/.pyenv"' >> ~/.zshrc
+    echo 'command -v pyenv >/dev/null || export PATH="$PYENV_ROOT/bin:$PATH"' >> ~/.zshrc
+    echo 'eval "$(pyenv init -)"' >> ~/.zshrc
+  fi
+else
+  echo "✅ pyenv já instalado!"
+fi
+
 # --- Docker / Colima ---
 echo "🐳 Verificando e instalando Colima + Docker..."
 
