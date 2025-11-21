@@ -35,6 +35,15 @@ else
   echo "✅ aws-cli já instalado!"
 fi
 
+# --- GitHub CLI ---
+echo "📦 Verificando e instalando GitHub CLI..."
+if ! command -v gh &> /dev/null; then
+  echo "📦 Instalando gh..."
+  brew install gh
+else
+  echo "✅ gh já instalado!"
+fi
+
 # --- Linguagens e gerenciadores ---
 echo "📦 Verificando linguagens e gerenciadores de versão..."
 
