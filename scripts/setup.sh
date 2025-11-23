@@ -44,6 +44,15 @@ else
   echo "✅ gh já instalado!"
 fi
 
+# --- Supabase CLI ---
+echo "📦 Verificando e instalando Supabase CLI..."
+if ! command -v supabase &> /dev/null; then
+  echo "📦 Instalando supabase..."
+  brew install supabase
+else
+  echo "✅ supabase já instalado!"
+fi
+
 # --- Linguagens e gerenciadores ---
 echo "📦 Verificando linguagens e gerenciadores de versão..."
 
